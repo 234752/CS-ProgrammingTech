@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.9-preview-20220210-07" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.9-preview-20220210-07" />
+  </ItemGroup>
+
 </Project>

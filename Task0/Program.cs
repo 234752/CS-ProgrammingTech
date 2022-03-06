@@ -10,7 +10,7 @@ namespace Task0
             Console.ReadLine();
         }
 
-        public bool isEven(int n)
+        public static bool IsEven(int n)
         {
             return (n % 2 == 0);
         }
