@@ -6,8 +6,20 @@ namespace Task0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter number: ");
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine("Enter number: ");
+                int n = int.Parse(Console.ReadLine());
+
+                if (IsEven(n)) Console.WriteLine("This number is even!");
+                else Console.WriteLine("This number is odd!");
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Error. Invalid data entered.");
+            }
+
+            
         }
 
         public static bool IsEven(int n)
