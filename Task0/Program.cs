@@ -9,5 +9,10 @@ namespace Task0
             Console.WriteLine("Enter number: ");
             Console.ReadLine();
         }
+
+        public bool isEven(int n)
+        {
+            return (n % 2 == 0);
+        }
     }
 }
