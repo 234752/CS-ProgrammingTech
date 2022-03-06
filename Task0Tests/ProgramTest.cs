@@ -8,9 +8,14 @@ namespace Task0Tests
     public class ProgramTest
     {
         [TestMethod]
-        public void IsEvenTest()
+        public void IsEvenTest512()
         {
             Assert.IsTrue(Program.IsEven(512));
+        }
+        [TestMethod]
+        public void IsEvenTest1337()
+        {
+            Assert.IsFalse(Program.IsEven(1337));
         }
     }
 }
